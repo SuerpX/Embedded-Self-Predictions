@@ -1,0 +1,37 @@
+layers:
+    - type: "FC"
+      neurons: 512
+#     - type: "BatchNorm1d"
+#       size: 1024
+      
+    - type: "FC"
+      neurons: 2048
+      
+#     - type: "BatchNorm1d"
+#       size: 512
+      
+    - type: "FC"
+      neurons: 512  
+    
+    - type: "FC"
+      neurons: 256  
+#     - type: "BatchNorm1d"
+#       size: 128
+
+      
+input_shape:
+    - 68
+
+feature_len:
+    - 17
+version: "v10"
+output_shape: 1
+
+shared_layers: 17
+aggeregator: "average" #TODO
+
+network_path: "./saved_models/tug_of_war/gqf/v10_sepcific.ckpt"
+summaries_path: "./tensorflow_summaries/tug_of_war/gqf/v10_sepcific/network_summary"
+summaries_step: 10000000000
+restore_network: True
+save_steps: 10

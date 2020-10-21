@@ -1,0 +1,32 @@
+layers:
+    - type: "FC"
+      neurons: 2048
+#     - type: "BatchNorm1d"
+#       size: 1024
+      
+    - type: "FC"
+      neurons: 1024
+      
+#     - type: "BatchNorm1d"
+#       size: 512
+      
+    - type: "FC"
+      neurons: 256  
+      
+#     - type: "BatchNorm1d"
+#       size: 128
+
+      
+input_shape:
+    - 68
+
+output_shape: 8
+
+shared_layers: [] #TODO
+aggeregator: "average" #TODO
+
+network_path: "./saved_models/tug_of_war/sadq_2p_2l_decom/experience_collect.ckpt"
+summaries_path: "./tensorflow_summaries/tug_of_war/sadq_2p_2l_decom/experience_collect/network_summary"
+summaries_step: 10000000000
+restore_network: True
+save_steps: 10

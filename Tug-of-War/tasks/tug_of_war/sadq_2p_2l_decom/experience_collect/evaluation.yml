@@ -1,0 +1,10 @@
+name: "tug of war sadq_2p_2l_decom"
+env: "tug_of_war_sadq_2p_2l_decom-experience_collect"
+summaries_path: "./tensorflow_summaries/tug_of_war/sadq_2p_2l_decom/experience_collect/evaluation_summary"
+test_episodes: 10
+training_episodes: 0
+render: False
+sleep: 5
+generate_xai_replay: False
+xai_replay_dimension: 1024
+result_path: "result_self_play_2l_grid_decom_experience_collect.txt"

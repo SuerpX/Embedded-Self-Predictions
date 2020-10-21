@@ -1,0 +1,17 @@
+torch
+torchvision
+gym[all]
+pysc2==2.0.2
+numpy
+visdom
+tensorflow
+tensorboardX
+openpyxl
+baselines
+pandas
+pyyaml
+coverage
+imutil
+tqdm
+scaii>=0.2.0
+

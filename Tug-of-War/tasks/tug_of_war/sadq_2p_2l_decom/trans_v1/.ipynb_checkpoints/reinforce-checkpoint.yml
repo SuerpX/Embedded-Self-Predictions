@@ -1,0 +1,12 @@
+batch_size: 128
+memory_size: 400000
+summaries_path: "./tensorflow_summaries/tug_of_war/sadq_2p_2l_decom/trans_v1/reinforce_summary"
+update_frequency: 10
+replace_frequency: 6000
+epsilon_timesteps: 40000
+starting_epsilon: 1
+final_epsilon: 0.02
+is_random_agent_1: False
+is_random_agent_2: False
+collecting_experience: False
+use_prior_memory: False

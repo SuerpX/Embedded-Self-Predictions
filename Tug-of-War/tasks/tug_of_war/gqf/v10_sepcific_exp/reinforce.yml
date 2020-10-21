@@ -1,0 +1,17 @@
+decay_steps: 300
+starting_epsilon: 1
+discount_factor: 0.9999
+batch_size: 32
+memory_size: 50000
+summaries_path: "./tensorflow_summaries/tug_of_war/gqf/v10_sepcific/reinforce_summary"
+update_frequency: 10
+replace_frequency: 6000
+epsilon_timesteps: 40000
+starting_epsilon: 1
+final_epsilon: 0.1
+is_random_agent_1: False
+is_random_agent_2: False
+collecting_experience: False
+use_prior_memory: False
+is_use_sepcific_enemy: True
+enemy_path: "./saved_models/tug_of_war/agents/grid_decom/TugOfWar_eval.pupdate_121"
