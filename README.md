@@ -18,7 +18,7 @@ https://github.com/Blizzard/s2client-proto#downloads (4.7.1 recommended, only fo
 
 2. The StarCraft need to be installed at the ~/ path.
 
-3. Clong the anonymous Tug-of-war env.
+3. git clone the Tug-of-war env.
 https://github.com/osu-xai/sc2env
 
 4. run the following command:
