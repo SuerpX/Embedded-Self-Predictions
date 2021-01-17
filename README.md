@@ -1,6 +1,6 @@
 Paper published at ICLR 2021 (Oral): https://openreview.net/forum?id=Ud3DSz72nYR
 
-ESP agent Trianing, Evaluation and Producing Explanation
+ESP agent Training, Evaluation and Producing Explanation
 ============================
 
 ## Installation
